@@ -8,7 +8,7 @@ const jwksClient = require("jwks-rsa");
 const app  = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors({ origin: process.env.FRONTEND_URL || "*" }));
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 // ─── Validate env vars ─────────────────────────────────────
