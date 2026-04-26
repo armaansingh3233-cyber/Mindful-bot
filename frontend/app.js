@@ -3,7 +3,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 // ─── Config ────────────────────────────────────────────────
-const API_BASE = "http://localhost:3000"; // ← Replace with your Render URL
+const API_BASE = "https://mindful-chat-backend-ib44.onrender.com"; // ← Replace with your Render URL
 
 // ─── State ─────────────────────────────────────────────────
 let chatHistory   = [];   // messages in current session
