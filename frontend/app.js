@@ -80,7 +80,7 @@ async function onSignedIn(user) {
 
 // Google sign-in button
 document.getElementById("googleSignInBtn")?.addEventListener("click", async () => {
-  await window.Clerk.redirectToSignIn();
+  await window.Clerk.openSignIn();
 });
 
 signOutBtn?.addEventListener("click", async () => {
